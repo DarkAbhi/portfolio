@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+   @apply text-blue-600 hover:text-blue-800 dark:text-green-500 dark:hover:text-green-800
+}
+
+li {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
