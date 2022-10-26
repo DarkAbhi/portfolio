@@ -15,13 +15,13 @@ function ProjectItem({
   sourceLink,
 }: ProjectItemProps) {
   return (
-    <div className="flex flex-col my-6 dark:bg-[#29282B] mr-6 w-fit shadow-md rounded-b-lg">
+    <div className="flex flex-col my-6 dark:bg-[#29282B] mr-6 lg:w-fit shadow-md rounded-b-lg">
       <div
         className={`${
           title === "COVID Relief"
             ? "bg-blue-400 dark:bg-[#586EDF]"
             : "bg-purple-600 dark:bg-[#A057DE]"
-        } h-14  text-2xl text-white font-semibold rounded-t-lg flex items-center pl-3 pr-4 `}
+        } h-14 lg:text-2xl text-white font-semibold rounded-t-lg flex items-center pl-3 pr-4 `}
       >
         {title}
       </div>

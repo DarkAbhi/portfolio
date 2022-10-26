@@ -42,7 +42,8 @@ export const projectData = [
     title: "Admin Panel Neumorphism",
     description:
       "In collaboration with Let’s be the change,<br>a database offering availability of necessary<br>services during the pandemic.",
-    viewLink: "https://play.google.com/store/apps/details?id=com.iku",
-    sourceLink: "https://iku.earth",
+    viewLink:
+      "https://www.figma.com/file/MtOJloXPKbCWUhUqiJOAEc/Admin-Panel---Neumorphism?node-id=12%3A589",
+    sourceLink: null,
   },
 ];

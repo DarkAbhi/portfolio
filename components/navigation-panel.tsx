@@ -15,7 +15,7 @@ const NavigationPanel = ({ setActiveTab }: NavigationPanelProps) => {
   }
 
   return (
-    <div className="flex dark:bg-[#29282B] relative h-screen overflow-hidden w-[25rem] shadow-lg">
+    <div className="flex dark:bg-[#29282B] relative h-screen overflow-hidden lg:w-[25rem] shadow-lg">
       <div className="m-auto">
         <div className="text-txt dark:text-white font-bold text-5xl">
           Abhishek AN
