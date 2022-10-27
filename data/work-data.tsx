@@ -6,7 +6,7 @@ export const workData = [
     description:
       "BigBasket, in association with FoodMates launched BB Wellness, a first <br/>of its kind dietitian nutritionist service in Bangalore.",
     playStoreLink:
-      "https://play.google.com/store/apps/details?id=com.appinessworld.foodmates2021",
+      "https://play.google.com/store/apps/details?id=com.foodmates",
     websiteLink: null,
   },
   {
