@@ -3,7 +3,7 @@ import UsesThisCategory from "./uses-this/uses-this-item";
 
 const UsesThis = () => {
   return (
-    <div className="flex-col dark:bg-background-dark h-screen pl-11 py-11 overflow-auto pr-8">
+    <div className="flex-col dark:bg-background-dark lg:h-screen pl-11 py-11 lg:overflow-auto pr-8">
       <div className="font-bold text-3xl dark:text-green-500 text-blue-800 tracking-widest">
         USES THIS
       </div>

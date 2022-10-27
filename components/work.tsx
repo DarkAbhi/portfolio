@@ -4,7 +4,7 @@ import WorkItem from "./work/work-item";
 
 const Work = () => {
   return (
-    <div className="flex-col dark:bg-background-dark h-screen  pl-11 pt-11 overflow-auto">
+    <div className="flex-col dark:bg-background-dark h-auto lg:h-screen pl-11 pt-11 lg:overflow-auto">
       <div className="text-black dark:text-white font-semibold text-3xl">
         Work
       </div>
@@ -22,7 +22,7 @@ const Work = () => {
       <div className="text-black dark:text-white font-semibold text-3xl">
         Projects
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-col lg:flex-row">
         {projectData.map((item) => (
           <ProjectItem
             key={item.title}
