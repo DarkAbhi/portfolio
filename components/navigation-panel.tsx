@@ -10,7 +10,7 @@ const NavigationPanel = ({ setActiveTab }: NavigationPanelProps) => {
   function checkTheme() {
     return (
       typeof window !== "undefined" &&
-      window.matchMedia("(prefers-color-scheme: dark)")
+      window.matchMedia("(prefers-color-scheme: dark)").matches
     );
   }
 
