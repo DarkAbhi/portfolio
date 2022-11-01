@@ -1,6 +1,6 @@
-import { projectData, workData } from "../data/work-data";
-import ProjectItem from "./work/project-item";
-import WorkItem from "./work/work-item";
+import { projectData, workData } from "@/data/work-data";
+import ProjectItem from "@/components/work/project-item";
+import WorkItem from "@/components/work/work-item";
 
 const Work = () => {
   return (

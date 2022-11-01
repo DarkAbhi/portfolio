@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import NavigationPanel from "../components/navigation-panel";
-import UsesThis from "../components/uses-this";
-import Work from "../components/work";
+import NavigationPanel from "@/components/navigation-panel";
+import UsesThis from "@/components/uses-this";
+import Work from "@/components/work";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("work");

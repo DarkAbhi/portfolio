@@ -18,6 +18,13 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/data/*": ["data/*"],
+      "@/styles/*": ["styles/*"],
+      "@/utils/*": ["utils/*"],
+    },
     "plugins": [
       {
         "name": "next"

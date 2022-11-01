@@ -1,5 +1,5 @@
-import { usesThisData } from "../data/uses-this-data";
-import UsesThisCategory from "./uses-this/uses-this-item";
+import { usesThisData } from "@/data/uses-this-data";
+import UsesThisCategory from "@/components/uses-this/uses-this-item";
 
 const UsesThis = () => {
   return (

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { openInNewTab } from "../../utils/window-utils";
+import { openInNewTab } from "@/utils/window-utils";
 
 export interface ProjectItemProps {
   title: string;

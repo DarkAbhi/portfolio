@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { openInNewTab } from "../utils/window-utils";
+import { openInNewTab } from "@/utils/window-utils";
 import { Dispatch, SetStateAction } from "react";
 
 interface NavigationPanelProps {
