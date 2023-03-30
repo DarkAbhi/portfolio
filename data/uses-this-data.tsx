@@ -13,7 +13,8 @@ export const usesThisData = [
           {
             name: "MSI B450M PRO-VDH MAX",
             link: "https://www.msi.com/Motherboard/B450M-PRO-VDH-MAX/Specification",
-            description: "Got this good budget board at the time, might upgrade soon.",
+            description:
+              "Got this good budget board at the time, might upgrade soon.",
           },
           {
             name: "Galax RTX 2060S",
@@ -68,10 +69,16 @@ export const usesThisData = [
         description: "My office laptop, only has office stuff.",
       },
       {
+        name: "iPhone 14 Pro",
+        sub_items: [],
+        link: "https://www.apple.com/in/iphone-14-pro/",
+        description: "My daily driver",
+      },
+      {
         name: "Samsung Galaxy S21 FE 5G",
         sub_items: [],
         link: "https://www.samsung.com/in/smartphones/galaxy-s21-5g/galaxy-s21-fe-5g/",
-        description: "My daily driver",
+        description: "My other daily driver",
       },
       {
         name: "Logitech G402 Hyperion Fury",
@@ -132,10 +139,11 @@ export const usesThisData = [
         description: "Got this on a sale, worth the price :)",
       },
       {
-        name: "OnePlus Band",
+        name: "Apple watch series 8",
         sub_items: [],
-        link: "https://www.oneplus.in/product/oneplus-band",
-        description: "My fitness tracker",
+        link: "https://www.apple.com/in/apple-watch-series-8/",
+        description:
+          "Wanted a really good smartwatch, this checks everything on the list.",
       },
       {
         name: "Acer Nitro VG240P",
@@ -149,6 +157,24 @@ export const usesThisData = [
         link: "https://www.sony.co.in/electronics/support/televisions-projectors-lcd-tvs/kdl-40nx650/specifications",
         description:
           "Have this from 2012! Picture quality so good, don't want to give it away 🤩",
+      },
+      {
+        name: "Sony PlayStation 5",
+        sub_items: [],
+        link: "https://www.playstation.com/en-in/ps5/",
+        description: "After a long wait finally grabbed this 🥺",
+      },
+      {
+        name: "Xbox One S",
+        sub_items: [],
+        link: "https://www.xbox.com/en-IN/consoles/xbox-one-s",
+        description: "Was a temporary console to play Forza Horizon 4",
+      },
+      {
+        name: "Mi 10000mAH Powerbank",
+        sub_items: [],
+        link: "https://www.amazon.in/gp/product/B08HVL8QN3/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1",
+        description: "Really comes handy to charge 3 devices",
       },
       {
         name: "STRIFF Laptop Stand",
@@ -234,6 +260,23 @@ export const usesThisData = [
         sub_items: [],
         link: "https://kite.zerodha.com/",
         description: "Most simple platform for investing in stocks.",
+      },
+    ],
+  },
+  {
+    category: "Miscellaneous",
+    items: [
+      {
+        name: "Nivia studs",
+        sub_items: [],
+        link: "https://www.amazon.in/gp/product/B091KJMLMQ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1",
+        description: "Budget studs for game ⚽",
+      },
+      {
+        name: "Adidas Supernova 2",
+        sub_items: [],
+        link: "https://www.adidas.co.in/supernova-2-running-shoes/GW9093.html",
+        description: "Running shoes gifted by Renuka 🤩",
       },
     ],
   },
