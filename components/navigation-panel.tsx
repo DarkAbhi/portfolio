@@ -67,7 +67,7 @@ const NavigationPanel = ({ setActiveTab }: NavigationPanelProps) => {
             color={checkTheme() ? "white" : "black"}
             width={24}
             height={24}
-            onClick={() => (location.href = "mailto:iamabhishekan@gmail.com")}
+            onClick={() => (location.href = "mailto:me@abhiishekan.dev")}
           />
         </div>
         <button
