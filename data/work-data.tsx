@@ -41,7 +41,7 @@ export const projectData = [
   {
     title: "Admin Panel Neumorphism",
     description:
-      "In collaboration with Let’s be the change,<br>a database offering availability of necessary<br>services during the pandemic.",
+      "An admin panel design I built in my free<br>time using neumorphism.",
     viewLink:
       "https://www.figma.com/file/MtOJloXPKbCWUhUqiJOAEc/Admin-Panel---Neumorphism?node-id=12%3A589",
     sourceLink: null,
