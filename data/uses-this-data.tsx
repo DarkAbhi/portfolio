@@ -23,9 +23,9 @@ export const usesThisData = [
               "Nice entry level ray tracing GPU to handle games really well.",
           },
           {
-            name: "Corsair Vengeance LPX 3200mhz 24GB",
+            name: "Corsair Vengeance LPX 3200mhz 40GB",
             link: "https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK16GX4M2B3200C16",
-            description: "I know I know I'll get equal sizes",
+            description: "I know I know I'll try to get equal sizes",
           },
           {
             name: "Gigabyte B700H",
@@ -56,11 +56,10 @@ export const usesThisData = [
           "My main machine where I spend most of time rocking Ubuntu and Windows.",
       },
       {
-        name: "Toshiba Portege z30-b",
+        name: "Apple MacBook Air M2",
         sub_items: [],
-        link: "https://emea.dynabook.com/discontinued-products/portege-z30-b-109/",
-        description:
-          "Laptop I've had since 4 years, carry it everywhere I go out, packed with an i7 processor and being light weight, makes carrying it around easy.",
+        link: "https://www.apple.com/in/shop/buy-mac/macbook-air/13-inch-midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb",
+        description: "Beast of a machine, packed with 16GB RAM & 512GB storage",
       },
       {
         name: "MacBook Pro 2013",
@@ -113,11 +112,11 @@ export const usesThisData = [
         description: "A good compact budget wireless keyboard to carry around.",
       },
       {
-        name: "iBall Tarang 2.1",
+        name: "PreSonus Eris E3.5",
         sub_items: [],
-        link: "https://www.iball.co.in/Product/Desktop-Accessories/Speakers/2.1-Speaker/Tarang-2-1/194",
+        link: "amazon.in/PreSonus-Active-Speakers-Professional-Desktop/dp/B075QVMBT9?th=1",
         description:
-          "I've had these bad boys for around 6 years and they're just amazing!",
+          "Got these recently, bang for the buck entry level studio speakers",
       },
       {
         name: "Logitech G335 Wired Gaming Headset",
@@ -125,6 +124,12 @@ export const usesThisData = [
         link: "https://www.logitechg.com/en-in/products/gaming-audio/g335-gaming-headset.981-000977.html",
         description:
           "Saved up for these as well, it isn't that great, won't recommend, but I'm stuck with them for a couple of years 🙂",
+      },
+      {
+        name: "Airpods Pro 2",
+        sub_items: [],
+        link: "https://www.apple.com/in/shop/product/MQD83HN/A/airpods-pro",
+        description: "Got them for the ANC and seamless connectivity.",
       },
       {
         name: "OnePlus Nord Buds",
@@ -150,6 +155,12 @@ export const usesThisData = [
         sub_items: [],
         link: "https://www.acer.com/ac/en/SI/content/model/UM.QV0EE.P01",
         description: "My main monitor which I got with my desktop",
+      },
+      {
+        name: "LG 24ML600S",
+        sub_items: [],
+        link: "https://www.amazon.in/gp/product/B08J5Y9ZSV/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1",
+        description: "My secondary monitor which I got recently.",
       },
       {
         name: "Sony Bravia LCD KDL-40NX650",
@@ -181,6 +192,13 @@ export const usesThisData = [
         sub_items: [],
         link: "https://amzn.eu/d/cX3sSKo",
         description: "My MacBook sits on this when connected to the monitor.",
+      },
+      {
+        name: "Techzere Aluminium Vertical Laptop Stand",
+        sub_items: [],
+        link: "https://www.amazon.in/gp/product/B07MH1DPFL/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1",
+        description:
+          "My old Toshiba laptop which now runs as an Ubuntu server and MacBook rests here when connected to a monitor.",
       },
       {
         name: "Ikea Desk",
