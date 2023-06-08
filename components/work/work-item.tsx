@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { openInNewTab } from "@/utils/window-utils";
 
@@ -18,12 +20,17 @@ function WorkItem({
   playStoreLink,
   websiteLink,
 }: WorkItemProps) {
-    
   return (
     <div className="flex flex-row my-6">
       <div className="flex relative">
         <div className="flex flex-col m-auto min-w-[140px]">
-          <Image className="items-center" src={image} width={122} height={55} alt="Company logo"/>
+          <Image
+            className="items-center"
+            src={image}
+            width={122}
+            height={55}
+            alt="Company logo"
+          />
           <div className="text-black dark:text-white mt-6 text-center">
             {role}
           </div>

@@ -1,12 +1,10 @@
+"use client";
+
 import { Icon } from "@iconify/react";
 import { openInNewTab } from "@/utils/window-utils";
-import { Dispatch, SetStateAction } from "react";
+import Link from "next/link";
 
-interface NavigationPanelProps {
-  setActiveTab: Dispatch<SetStateAction<any>>;
-}
-
-const NavigationPanel = ({ setActiveTab }: NavigationPanelProps) => {
+const NavigationPanel = () => {
   function checkTheme() {
     return (
       typeof window !== "undefined" &&
@@ -70,20 +68,22 @@ const NavigationPanel = ({ setActiveTab }: NavigationPanelProps) => {
             onClick={() => (location.href = "mailto:me@abhiishekan.dev")}
           />
         </div>
-        <button
-          type="button"
-          className="mt-6 text-white bg-blue-700 hover:bg-blue-800 dark:bg-green-600 dark:hover:bg-green-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
-          onClick={() => setActiveTab("work")}
-        >
-          Work
-        </button>
-        <button
-          type="button"
-          className="mt-6 text-white bg-blue-700 hover:bg-blue-800 dark:bg-green-600 dark:hover:bg-green-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
-          onClick={() => setActiveTab("uses-this")}
-        >
-          Uses this
-        </button>
+        <Link href={"/"}>
+          <button
+            type="button"
+            className="mt-6 text-white bg-blue-700 hover:bg-blue-800 dark:bg-green-600 dark:hover:bg-green-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
+          >
+            Work
+          </button>
+        </Link>
+        <Link href={"/uses-this"}>
+          <button
+            type="button"
+            className="mt-6 text-white bg-blue-700 hover:bg-blue-800 dark:bg-green-600 dark:hover:bg-green-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"
+          >
+            Uses this
+          </button>
+        </Link>
       </div>
     </div>
   );

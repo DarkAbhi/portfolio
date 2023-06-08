@@ -1,3 +1,5 @@
+"use client";
+
 import { openInNewTab } from "@/utils/window-utils";
 
 export interface ProjectItemProps {

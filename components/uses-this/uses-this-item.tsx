@@ -1,3 +1,5 @@
+"use client";
+
 interface UsesThisCategoryProps {
   category: string;
   items: Array<UsesThisItemProps>;
