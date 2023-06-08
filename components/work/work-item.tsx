@@ -25,7 +25,7 @@ function WorkItem({
       <div className="flex relative">
         <div className="flex flex-col m-auto min-w-[140px]">
           <Image
-            className="items-center"
+            className="mx-auto"
             src={image}
             width={122}
             height={55}
