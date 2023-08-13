@@ -1,4 +1,3 @@
-import NavigationPanel from "@/components/navigation-panel";
 import { Metadata } from "next";
 import { usesThisData } from "@/data/uses-this-data";
 import UsesThisCategory from "@/components/uses-this/uses-this-item";
@@ -25,25 +24,22 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:flex-row bg-white sm:overflow-auto lg:overflow-hidden">
-      <NavigationPanel />
-      <div className="flex-1 w-full">
-        <div className="flex-col dark:bg-background-dark lg:h-screen pl-11 py-11 lg:overflow-auto pr-8">
-          <div className="font-bold text-3xl dark:text-green-500 text-blue-800 tracking-widest">
-            USES THIS
-          </div>
-          <div className="mt-4 dark:text-white text-base">
-            Inspired by <a href="https://usesthis.com/">Uses This</a>, these are
-            the tools/services I use to get things done.
-          </div>
-          {usesThisData.map((item) => (
-            <UsesThisCategory
-              key={item.category}
-              category={item.category}
-              items={item.items}
-            />
-          ))}
+    <div className="flex-1 w-full">
+      <div className="flex-col dark:bg-background-dark lg:h-screen pl-11 py-11 lg:overflow-auto pr-8">
+        <div className="font-bold text-3xl dark:text-green-500 text-blue-800 tracking-widest">
+          USES THIS
         </div>
+        <div className="mt-4 dark:text-white text-base">
+          Inspired by <a href="https://usesthis.com/">Uses This</a>, these are
+          the tools/services I use to get things done.
+        </div>
+        {usesThisData.map((item) => (
+          <UsesThisCategory
+            key={item.category}
+            category={item.category}
+            items={item.items}
+          />
+        ))}
       </div>
     </div>
   );

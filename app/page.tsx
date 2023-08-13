@@ -1,4 +1,3 @@
-import NavigationPanel from "@/components/navigation-panel";
 import { Metadata } from "next";
 import { projectData, workData } from "@/data/work-data";
 import ProjectItem from "@/components/work/project-item";
@@ -26,38 +25,35 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col lg:flex-row bg-white sm:overflow-auto lg:overflow-hidden">
-      <NavigationPanel />
-      <div className="flex-1 w-full">
-        <div className="flex-col dark:bg-background-dark h-auto lg:h-screen pl-11 pt-11 lg:overflow-auto">
-          <div className="font-bold text-3xl dark:text-green-500 text-blue-800 tracking-widest">
-            WORK
-          </div>
-          {workData.map((item) => (
-            <WorkItem
+    <div className="flex-1 w-full">
+      <div className="flex-col dark:bg-background-dark h-auto lg:h-screen pl-11 pt-11 lg:overflow-auto">
+        <div className="font-bold text-3xl dark:text-green-500 text-blue-800 tracking-widest">
+          WORK
+        </div>
+        {workData.map((item) => (
+          <WorkItem
+            key={item.title}
+            image={item.image}
+            role={item.role}
+            title={item.title}
+            description={item.description}
+            playStoreLink={item.playStoreLink}
+            websiteLink={item.websiteLink}
+          />
+        ))}
+        <div className="text-black dark:text-white font-semibold text-3xl">
+          Projects
+        </div>
+        <div className="flex flex-col lg:flex-row">
+          {projectData.map((item) => (
+            <ProjectItem
               key={item.title}
-              image={item.image}
-              role={item.role}
               title={item.title}
               description={item.description}
-              playStoreLink={item.playStoreLink}
-              websiteLink={item.websiteLink}
+              viewLink={item.viewLink}
+              sourceLink={item.sourceLink}
             />
           ))}
-          <div className="text-black dark:text-white font-semibold text-3xl">
-            Projects
-          </div>
-          <div className="flex flex-col lg:flex-row">
-            {projectData.map((item) => (
-              <ProjectItem
-                key={item.title}
-                title={item.title}
-                description={item.description}
-                viewLink={item.viewLink}
-                sourceLink={item.sourceLink}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </div>
