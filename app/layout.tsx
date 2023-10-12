@@ -9,12 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body>
-        <div className="flex flex-col lg:flex-row bg-white sm:overflow-auto lg:overflow-hidden">
-          <NavigationPanel />
-          {children}
-        </div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
