@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 body {
+  background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-   @apply text-blue-600 hover:text-blue-800 dark:text-green-500 dark:hover:text-green-800
+   @apply text-green-500 hover:text-green-700
 }
 
 li {

@@ -60,6 +60,7 @@ export const usesThisData = [
         sub_items: [],
         link: "https://www.apple.com/in/shop/buy-mac/macbook-air/13-inch-midnight-apple-m2-chip-with-8-core-cpu-and-8-core-gpu-256gb",
         description: "Beast of a machine, packed with 16GB RAM & 512GB storage",
+        showOnHome: true,
       },
       {
         name: "MacBook Pro 2013",
@@ -72,12 +73,14 @@ export const usesThisData = [
         sub_items: [],
         link: "https://www.apple.com/in/iphone-14-pro/",
         description: "My daily driver",
+        showOnHome: true,
       },
       {
         name: "Samsung Galaxy S21 FE 5G",
         sub_items: [],
         link: "https://www.samsung.com/in/smartphones/galaxy-s21-5g/galaxy-s21-fe-5g/",
         description: "My other daily driver",
+        showOnHome: true,
       },
       {
         name: "Logitech G402 Hyperion Fury",
@@ -223,12 +226,21 @@ export const usesThisData = [
         sub_items: [],
         link: "https://code.visualstudio.com/",
         description: "Go to editor for most of my projects.",
+        showOnHome: true,
       },
       {
         name: "Android studio",
         sub_items: [],
         link: "https://developer.android.com/studio",
         description: "Recommended IDE for building native Android apps.",
+        showOnHome: true,
+      },
+      {
+        name: "iTerm2",
+        sub_items: [],
+        link: "https://iterm2.com/index.html",
+        description: "iTerm2 is a terminal emulator for macOS that does amazing things.",
+        showOnHome: true,
       },
       {
         name: "Jetbrains IDEs",

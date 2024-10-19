@@ -21,7 +21,7 @@ interface UsesThisSubItemProps {
 function UsesThisCategory({ category, items }: UsesThisCategoryProps) {
   return (
     <div className="my-3">
-      <div className="text-black dark:text-white text-xl font-semibold">
+      <div className="text-white text-xl font-semibold">
         {category}
       </div>
       <ul className="list-disc list-outside ml-1">
@@ -46,7 +46,7 @@ function UsesThisItem({
   sub_items,
 }: UsesThisItemProps) {
   return (
-    <li className="dark:text-white">
+    <li className="text-white">
       {link !== null ? <a href={link}>{name}</a> : `${name}`}
       {description !== null ? ` - ${description}` : ""}
       {sub_items?.length > 0 && (
